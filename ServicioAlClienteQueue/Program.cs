@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Capitulo7
+namespace ServicioAlClienteQueue
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace Capitulo7
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CalificacionesList());
+            Application.Run(new ServicioCliente());
         }
     }
 }
